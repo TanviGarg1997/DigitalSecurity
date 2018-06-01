@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DigitalSecurity</string>
+    <string name="underline"><u>                  New User?<b>Sign Up</b></u>.</string>
+    <string name="OTP"><u><b>Click Here To Proceed Further</b></u></string>
+</resources>

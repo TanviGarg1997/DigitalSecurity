@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context="com.example.tanvi.digitalsecurity.Otp"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Verification"
+        android:layout_marginTop="32dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:id="@+id/textOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.07"
+        android:layout_marginTop="25dp"
+        android:textSize="18dp"
+        android:text="@string/OTP"
+        android:clickable="true"
+        android:onClick="click"/>
+
+    <EditText
+        android:id="@+id/editCode"
+        android:layout_width="340dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="22dp"
+        android:inputType="phone"
+        android:hint="Enter OTP" />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:text="SUBMIT"
+        android:textColor="@color/bg"
+        android:background="@color/colorPrimary"
+        android:onClick="verifyCode"
+        android:textSize="18dp"/>
+</LinearLayout>

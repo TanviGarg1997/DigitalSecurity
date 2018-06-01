@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "59046452598",
+    "firebase_url": "https://digitalsecurity-a06c2.firebaseio.com",
+    "project_id": "digitalsecurity-a06c2",
+    "storage_bucket": "digitalsecurity-a06c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59046452598:android:a42c818a457d1944",
+        "android_client_info": {
+          "package_name": "com.example.tanvi.digitalsecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59046452598-132v1knh1mpu8on9s6aqeoq368gpa27l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tanvi.digitalsecurity",
+            "certificate_hash": "fcd21037c264cc1697ed4eaa742bbdac80827995"
+          }
+        },
+        {
+          "client_id": "59046452598-4tlpbjebdef9iogr6dimgub8d0hibtuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmuUb6a0DcawnmU3SuojzTaNPqP6AZuu0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "59046452598-4tlpbjebdef9iogr6dimgub8d0hibtuj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
